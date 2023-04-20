@@ -1,0 +1,50 @@
+---
+title: "Selenium Tarayıcı Otomasyonu Projesi"
+linkTitle: "Dökümantasyon"
+cascade:
+- type: docs
+aliases: ["/documentation/en/"]
+---
+
+Selenium, web tarayıcılarının otomatikleştirilmesini mümkün kılan bir dizi araç ve kütüphaneyi içeren bir çatı projesidir.
+
+Selenium, tarayıcılarla kullanıcı etkileşimini taklit etmek için uzantılar sağlar,
+tarayıcı tahsisi ölçeklendirmesi için bir dağıtım sunucusu sağlar ,
+ve tüm büyük web tarayıcıları için değiştirilebilir kod yazmanıza olanak tanıyan [W3C WebDriver özelliklerinin](//www.w3.org/TR/webdriver/) uygulanması için altyapı sağlar.
+
+Bu proje, kendi zamanlarında binlerce saat harcayan gönüllü katkıda bulunanlar sayesinde mümkün olmuştur ve kaynak kodu herkesin kullanması, 
+beğenmesi ve geliştirmesi için [özgürce erişilebilir]({{< ref "copyright.md#license" >}}).
+  
+Selenium, tarayıcı satıcılarını, mühendisleri ve meraklıları, web platformunun otomasyonu etrafında açık bir tartışmayı ileriye taşımak için bir araya getirir. 
+Proje, topluluğu öğretmek ve desteklemek için [yıllık konferans](//seleniumconf.com/) düzenler.
+  
+Selenium'in temelinde [WebDriver]({{< ref "webdriver" >}}) yer alır,
+birçok tarayıcıda değiştirilebilir şekilde çalıştırılabilen komut kümeleri yazmak için bir arayüzdür.
+Her şeyi yükledikten sonra, sadece birkaç satır kod ile bir tarayıcıda gezinebilirsiniz.
+Daha kapsamlı bir örneği [İlk Selenium betiğinizi yazma]({{< ref "first_script.md" >}}) sayfasında bulabilirsiniz.
+  
+{{< tabpane text=true langEqualsHeader=true >}}
+{{< tab header="Java" >}}
+{{< gh-codeblock path="/examples/java/src/test/java/dev/selenium/hello/HelloSelenium.java" >}}
+{{< /tab >}}
+{{< tab header="Python" >}}
+{{< gh-codeblock path="/examples/python/tests/hello/hello_selenium.py" >}}
+{{< /tab >}}
+{{< tab header="CSharp" >}}
+{{< gh-codeblock path="/examples/dotnet/SeleniumDocs/Hello/HelloSelenium.cs" >}}
+{{< /tab >}}
+{{< tab header="Ruby" >}}
+{{< gh-codeblock path="/examples/ruby/spec/hello/hello_selenium_spec.rb" >}}
+{{< /tab >}}
+{{< tab header="JavaScript" >}}
+{{< gh-codeblock path="/examples/javascript/test/hello/helloSelenium.js" >}}
+{{< /tab >}}
+{{< tab header="Kotlin" >}}
+{{< gh-codeblock path="/examples/kotlin/src/test/kotlin/dev/selenium/hello/HelloSelenium.kt" >}}
+{{< /tab >}}
+{{< /tabpane >}}
+  
+Projenin farklı bileşenlerini kontrol etmek ve Selenium'un sizin için doğru araç olup olmadığına karar vermek için [Genel Bakış]({{< ref "overview" >}}) sayfasına bakabilirsiniz.
+  
+Selenium'i test otomasyon aracı olarak başarılı bir şekilde kullanmak için nasıl yükleyebileceğinizi ve bu basit testleri birden fazla tarayıcıda, farklı işletim sistemlerinde,
+  büyük ve dağıtılmış ortamlarda çalıştırmak için nasıl ölçeklendirebileceğinizi anlamak için [Başlarken]({{< ref "webdriver/getting_started" >}}) bölümüne devam etmelisiniz.
